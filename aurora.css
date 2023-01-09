@@ -49,6 +49,7 @@ body {
 }
 
 figure {
+  align-items: flex-end;
   display: flex;
   flex-flow: column;
   margin: auto;
@@ -61,7 +62,12 @@ figure > * {
   border-radius: 100%;
   border-style: double;
   border-width: 1ex;
+  margin: 0;
   padding: 0;
+}
+
+h1 {
+  align-self: center;
 }
 
 footer {
